@@ -8,7 +8,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: /data/nginx/pv0
+    path: /test/postgres-01
 ---
 apiVersion: v1
 kind: PersistentVolume
